@@ -1,0 +1,22 @@
+FROM node:18-alpine
+
+WORKDIR /usr/src/app
+
+# Copy necessary files first to enhance docker cache
+COPY package*.json ./
+
+RUN npm install --production
+
+# Copy the remaining code
+COPY . .
+
+# Defining the production env
+ENV NODE_ENV=production
+
+# Compiling typescript
+RUN npm run build
+
+EXPOSE 3000
+
+# Use compiled version
+CMD ["npm", "run", "start:prod"]
