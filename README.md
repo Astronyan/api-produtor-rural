@@ -1,7 +1,7 @@
 # API Produtor Rural
 
 API para gerenciamento de produtores rurais, fazendas e culturas plantadas.
-Disponível publicamente em: http://85.31.62.235:3000
+Disponível publicamente em: [api.produtorrural.sobremail](https://api.produtorrural.sobremail.com/api)
 
 ## Pré-requisitos
 
