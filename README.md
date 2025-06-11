@@ -1,6 +1,7 @@
 # API Produtor Rural
 
 API para gerenciamento de produtores rurais, fazendas e culturas plantadas.
+Disponível publicamente em: [api.produtorrural.sobremail](https://api.produtorrural.sobremail.com/api)
 
 ## Pré-requisitos
 
