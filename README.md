@@ -2,6 +2,7 @@
 
 API para gerenciamento de produtores rurais, fazendas e culturas plantadas.
 Disponível publicamente em: [api.produtorrural.sobremail](https://api.produtorrural.sobremail.com/api)
+obs: Fiz apenas o setup básico do swagger (com IA), não deu tempo de documentar tão bem, por o tempo ser bem estreito.
 
 ## Pré-requisitos
 
